@@ -11,7 +11,7 @@ namespace SimpleAPI.Test
         public void GetReturnsMyName()
         {
             var returnValue = Isko.Get(1);
-            Assert.Equal("Ferdinand Escolar",returnValue.Value);
+            Assert.Equal("Ferdinand Escolars",returnValue.Value);
         }
         [Fact]
         public void Test1()
